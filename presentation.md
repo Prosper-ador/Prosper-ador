@@ -100,10 +100,10 @@ variable=value
 var=tab
 echo $var
 ```
-**bash** : opens a new shell 
+**bash** : opens a new shell  
 **export** : will make the variable created to be persistent on any child shell that you may subsequently open .
 ## Deleting environmet variables
-**unset** : without the $ will kill the variable 
+**unset** : without the $ will kill the variable  
 **set**: this is another command to display all environment variables
 ## Quoting to escape special characters
 * single quotes will preserve the literal value of all characters , while double quotes will preserve all characters except for $ , ` , \ , and in some cases !
@@ -113,9 +113,9 @@ echo '$PATH'
 echo "$PATH" 
 ```
 ## Redirection and Pipes
-**>** operator for redirection , **>>** operator for appending 
-**|** takes the output of one command as the input of the next command
-**diff** checks if two file have thesame content 
+**>** operator for redirection , **>>** operator for appending  
+**|** takes the output of one command as the input of the next command  
+**diff** checks if two file have thesame content  
 ```
 diff file1 file2
 ```
