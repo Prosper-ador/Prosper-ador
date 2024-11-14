@@ -8,6 +8,8 @@ pwd
 ```bash
 touch file
 touch file.txt
+touch -r file1.txt file2.txt
+touch -t 2024122510530
 ```
 **uname**: Displays information about the linux system you are running like the linux kernel version that is currently loaded.
 ```bash
