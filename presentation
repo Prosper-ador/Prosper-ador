@@ -34,7 +34,8 @@ apropos apropos
 type uname
 ```
 **which**: returns the absolute location of a command
-## Finding environment variable
+## Finding environment variable  
+**env or printenv**: displays all environment variables in a command- line interfaces
 ```
 nyengka-prosper@letlovelead:~$ env
 SHELL=/bin/bash
@@ -84,3 +85,12 @@ GDMSESSION=ubuntu
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 _=/usr/bin/env
 ```
+Note the PATH entry which contains the directories where your shell will look for other programs without specifying a complete path.  
+**echo**: will print to the screen whatever you tell it.
+```bash 
+echo "How are you"
+echo $PATH 
+```
+## Creating new environment variable  
+variable=value
+```bash 
