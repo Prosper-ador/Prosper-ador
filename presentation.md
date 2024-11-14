@@ -37,7 +37,7 @@ type uname
 ```
 **which**: returns the absolute location of a command
 ## Finding environment variable  
-Environment variables are dynamic values that can be applications used in shells.
+Environment variables are dynamic values that can be applications used in shells.  
 **env or printenv**: displays all environment variables in a command- line interfaces
 ```
 nyengka-prosper@letlovelead:~$ env
